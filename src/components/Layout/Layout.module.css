@@ -1,0 +1,49 @@
+.mainContainer {
+	height: 100vh;
+	min-width: 1200px;
+	border: 1px solid lightgray;
+}
+
+.side {
+	background: lightgray;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.header {
+	border: 1px solid black;
+	border-radius: 0.5em;
+	padding: 1em;
+	background-color: #fff;
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 5em;
+	margin-top: 3em;
+}
+
+.buildForm {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: black;
+	border: 1px solid black;
+	border-radius: 1em;
+	padding: 0.5em;
+	background: #fff;
+	margin: 0 0.5em 0.5em 0.5em;
+}
+
+.allForms {
+	margin: 0.5em;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: black;
+	border: 1px solid black;
+	border-radius: 1em;
+	padding: 0.5em;
+	background: #fff;
+}

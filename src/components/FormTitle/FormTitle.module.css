@@ -1,0 +1,13 @@
+.container {
+	width: 50%;
+	height: 3.5em;
+	/* background: #e9e8e8;
+	border: 1px solid gray;
+	border-radius: 0.5em;
+	box-shadow: 1px 1px gray; */
+	padding: 1em;
+}
+
+.titleInput {
+	width: 100%;
+}

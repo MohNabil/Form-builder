@@ -1,0 +1,22 @@
+.container {
+	margin: 7em auto;
+	border: 1px solid lightgray;
+	box-shadow: 1px 1px lightgray;
+	width: 75%;
+	padding: 1em;
+}
+
+.formContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	border-bottom: 1px solid black;
+}
+
+.submitBtn {
+	margin-top: 2em !important;
+}

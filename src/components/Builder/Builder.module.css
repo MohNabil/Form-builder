@@ -1,0 +1,39 @@
+.container {
+	margin: 5em;
+	border: 1px solid lightgray;
+	box-shadow: 1px 1px lightgray;
+}
+
+.builderContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.addButton {
+	margin-top: 1em !important;
+}
+
+.input {
+	margin: 0.5em !important;
+}
+
+.btnContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 10%;
+	height: 8em;
+}
+
+.inputContainer {
+	display: flex;
+	align-items: center;
+}
+
+.msg {
+	display: block;
+	background: #80d22e;
+	padding: 0.5em;
+}
