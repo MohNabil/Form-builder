@@ -19,7 +19,7 @@ export const FormInput = ({
 				{label}
 				{required ? "*" : ""}
 			</label>
-			{type === "input" ? (
+			{type !== "textarea" ? (
 				<input
 					type={type}
 					placeholder={`Enter your ${label}`}
@@ -33,7 +33,7 @@ export const FormInput = ({
 						}
 					}}
 				/>
-			) : type === "textarea" ? (
+			) : (
 				<textarea
 					value={inputValue}
 					onChange={(e) => {
@@ -41,7 +41,7 @@ export const FormInput = ({
 					}}
 					placeholder={`Enter your ${label}`}
 				/>
-			) : null}
+			)}
 		</div>
 	);
 };
