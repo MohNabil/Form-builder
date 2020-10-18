@@ -21,13 +21,23 @@ export const Input = ({ type, label, required, defaultValue, editDelete }) => {
 					{label}
 					{required ? "*" : ""}
 				</label>
-				<input
-					type={type}
-					placeholder={defaultValue ? `${defaultValue}` : `Enter your ${label}`}
-					required={required}
-					className={styles.input}
-					step={type === "number" ? "0.01" : "1"}
-				/>
+				{type === "input" ? (
+					<input
+						type={type}
+						placeholder={
+							defaultValue ? `${defaultValue}` : `Enter your ${label}`
+						}
+						required={required}
+						className={styles.input}
+						step={type === "number" ? "0.01" : "1"}
+					/>
+				) : type === "textarea" ? (
+					<textarea
+						placeholder={
+							defaultValue ? `${defaultValue}` : `Enter your ${label}`
+						}
+					/>
+				) : null}
 			</div>
 			<div className={styles.btn}>
 				<Delete

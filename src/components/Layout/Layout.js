@@ -23,6 +23,18 @@ export const Layout = () => {
 						My Forms
 					</Link>
 				</div>
+				<div className={styles.info}>
+					<h3>Some of the inputs you may want to use</h3>
+					<ul>
+						<li>text</li>
+						<li>number</li>
+						<li>email</li>
+						<li>password</li>
+						<li>date</li>
+						<li>checkbox</li>
+						<li>textarea</li>
+					</ul>
+				</div>
 			</Grid>
 			<Grid item xs={10} className={styles.main}>
 				<FormContainer>

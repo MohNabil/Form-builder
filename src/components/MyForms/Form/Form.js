@@ -9,6 +9,7 @@ export const Form = ({ location }) => {
 
 	const inputsState = {};
 	useEffect(() => {
+		//Initiating an object to hold the data of the form inputs with the label as a key
 		data.inputs.forEach((input) => {
 			inputsState[`${input.label}`] = "" || input.defaultInputValue;
 		});

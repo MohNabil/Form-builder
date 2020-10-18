@@ -1,7 +1,6 @@
 .mainContainer {
 	height: 100vh;
 	min-width: 1200px;
-	border: 1px solid lightgray;
 }
 
 .side {
@@ -46,4 +45,8 @@
 	border-radius: 1em;
 	padding: 0.5em;
 	background: #fff;
+}
+
+.info {
+	margin-top: 3em;
 }
